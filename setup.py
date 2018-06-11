@@ -47,9 +47,9 @@ setup(name='lastconf',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          # 3rd party
-          'setuptools'
-          # Others
+          'setuptools',
+          'structlog',
+          'toml',
           ],
       entry_points={
           },
